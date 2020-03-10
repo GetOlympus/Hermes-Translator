@@ -25,6 +25,11 @@ composer require getolympus/olympus-hermes-translator
 
 You can easily use the `Hermes` translator thanks to its functions:
 ```php
+
+namespace MyCustomPackage;
+
+use GetOlympus\Hermes\Hermes;
+
 /**
  * Load translations.
  *
