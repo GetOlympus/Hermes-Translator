@@ -1,10 +1,18 @@
-# Olympus Hermes Translator ![PHP Version][php-image]
+# Olympus Hermes Translator
 > **Olympus Hermes Translator** is a bundle used to translate all messages from your WordPress website, its plugins and Olympus bundles.
+
+```sh
+composer require getolympus/olympus-hermes-translator
+```
+
+---
 
 [![Olympus Component][olympus-image]][olympus-url]
 [![CodeFactor Grade][codefactor-image]][codefactor-url]
 [![Packagist Version][packagist-image]][packagist-url]
-[![Travis Status][travis-image]][travis-url]
+[![MIT][license-image]][license-blob]
+
+---
 
 ## Features
 
@@ -13,15 +21,7 @@
 
 ![With Composer](https://img.shields.io/badge/with-Composer-885630.svg?style=flat-square)
 
-## Installation
-
-Using `composer` in your PHP project:
-
-```sh
-composer require getolympus/olympus-hermes-translator
-```
-
-## Examples
+## How to
 
 You can easily use the `Hermes` translator thanks to its functions:
 ```php
@@ -75,16 +75,6 @@ echo Hermes::t('My custom message to translate', 'my-custom-domain');
 
 See [**CHANGELOG.md**][changelog-blob] for all details.
 
-## Authors and Copyright
-
-Achraf Chouk  
-[![@crewstyle][twitter-image]][twitter-url]
-
-[https://github.com/crewstyle](https://github.com/crewstyle)  
-[http://fr.linkedin.com/in/achrafchouk](http://fr.linkedin.com/in/achrafchouk)
-
-Please, read [![MIT][license-image]][license-blob] for more information.
-
 ## Contributing
 
 1. Fork it (<https://github.com/GetOlympus/Hermes-Translator/fork>)
@@ -107,8 +97,3 @@ Please, read [![MIT][license-image]][license-blob] for more information.
 [license-image]: https://img.shields.io/badge/license-MIT_License-blue.svg?style=flat-square
 [packagist-image]: https://img.shields.io/packagist/v/getolympus/olympus-Hermes-Translator.svg?style=flat-square
 [packagist-url]: https://packagist.org/packages/getolympus/olympus-Hermes-Translator
-[php-image]: https://img.shields.io/travis/php-v/GetOlympus/Hermes-Translator.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/GetOlympus/Hermes-Translator/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/GetOlympus/Hermes-Translator
-[twitter-image]: https://img.shields.io/badge/crewstyle-blue.svg?style=social&logo=twitter
-[twitter-url]: http://twitter.com/crewstyle
